@@ -35,15 +35,16 @@ body{
     
 }
 
-.logo-left-nav {
-    display: flex;
-}
-
-nav.navbar{
+nav {
     display: flex;
     justify-content: space-between;
 
 }
+.logo-left-nav {
+    display: flex;
+}
+
+
 
 .navbar h2{
     display: flex;
@@ -152,10 +153,6 @@ transform: translateY(8px) rotate(45deg);
     /* margin: 0; */
 }
 
-.txt_field2 label.caption{
-
-}
-
 input:focus{
     outline: none;
 }
@@ -202,6 +199,33 @@ input:focus{
     margin-right: 100px;
 }
 
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    background-color: black;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    /* -webkit-transition: all 0.3 ease-in-out; */
+}
+
+/* .open-menu, .close-menu{
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+} */
+
+.open-menu{
+    top: 50%;
+    right: 2-px;
+    transform: translateY(-50%);
+}
+
 @media (max-width:600px) {
     .hamburger{
         display: block;
@@ -211,7 +235,7 @@ input:focus{
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1){
-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
     }
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
@@ -220,4 +244,5 @@ transform: translateY(8px) rotate(45deg);
     .left-nav a, .right-nav a{
         margin-left: 25px;
         opacity: 60%;
+    }
 }
