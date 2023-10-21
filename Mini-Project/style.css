@@ -19,6 +19,7 @@ header{
     left: 0;
     width: 100% ;
     padding: 15px 100px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .logo-left-nav {
@@ -36,6 +37,8 @@ nav{
     justify-content: space-between;
 } */
 
+
+
 .navbar h2{
     display: flex;
 }
@@ -50,6 +53,8 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+/* == END OF NAVBAR MAIN SETTING == */
 
 /* nav .left-nav, nav .right-nav{
     display: flex;
