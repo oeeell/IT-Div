@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f4f0e8;
+}
+
+header{
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    padding: 15px 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
