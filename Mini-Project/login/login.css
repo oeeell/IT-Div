@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2");
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    min-height: 100vh;
+    background-color: #f4f0e8;
+    overflow: hidden;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.center{
+    background-color: #F8FAFC;
+    border: 1.5px solid #CDCFD1;   
+    border-radius: 4px; 
+}
+
+.caption{
+    font-weight:55 ;
+    font-size: 11px;
+}
+
+.login_pass{
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.login_pass input{
+    padding: 7px;
+    background-color: #0D6EFD;
+    color: rgb(234, 234, 234);
+    border-radius: 5px;
+    border: none;
+}
+
+.login_pass a{
+    color: #007AFF;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.form-content{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.txt_field1{
+    padding-bottom: 10px;
+    /* white-space: nowrap; */
+}
+
+.txt_field2{
+    padding-bottom: 10px;
+}
+
+.txt_field1, .txt_field2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* padding-left: 40px; */
+    /* margin: 0; */
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.login-text{
+    display: flex;
+    justify-items: flex-start;
+    padding-left: 15px;
+    border-bottom: 1px solid gainsboro ;
+    background-color: #F1F3F5;
+}
+
+.input_box input{
+    width: 200px;
+}
+
+.box{
+    margin-left: 15px;
+    color: gainsboro;
+    border: 1px solid gainsboro ;
+    border-radius: 3px;
+}
+
+.check_box label.caption{
+    display: flex;
+    align-items: center;
+
+}
+
+.check_box input{
+    border: 1px solid gainsboro;
+    margin: 0;
+}
+
+
+.check_box{
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 10px;
+}
+
+
+
+
